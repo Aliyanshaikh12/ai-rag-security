@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 from rag_prompts import SYSTEM_PROMPT, USER_PROMPT_TEMPLATE
 
-# Make sure you have the OPENAI_API_KEY environment variable set
+
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 alert_data = {
